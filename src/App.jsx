@@ -191,7 +191,7 @@ const AppContent = () => {
         </div>
 
         <div className="chart-section">
-          {data.length > 0 && <h4>Weekly Health Trends:</h4>}
+          {lastWeekData.length > 0 && <h4>Weekly Health Trends:</h4>}
           {lastWeekData.length > 0 && (
             <ResponsiveContainer width="100%" height={200}>
               <BarChart data={lastWeekData}>
